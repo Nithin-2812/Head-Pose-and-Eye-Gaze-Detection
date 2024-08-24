@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Eye_close', 'Eye_forward', 'Eye_left', 'Eye_right', 'Head_down', 'Head_forward', 'Head_left', 'Head_right']
+
+roboflow:
+  workspace: vidyashree
+  project: head_pose2
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vidyashree/head_pose2/dataset/5
